@@ -15,7 +15,7 @@ SLICE_FILE_PATH = path.join(DATA_PATH, SLICE_FILE_NAME)
 ENCODING = 'utf8'
 DAY_TO_EXPORT = 20
 
-LogsType = Final[list[str]]
+LogsType = Final[tuple[str]]
 
 LOGS: LogsType = (
     'May 18 11:59:18 PC-00102 plasmashell[1312]: kf.plasma.core: findInCache with a lastModified timestamp of 0 is deprecated',
